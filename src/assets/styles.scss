@@ -1,0 +1,27 @@
+@import "./variables.scss";
+@import './normalize.css';
+
+@font-face {
+  font-family: Modenine;
+  src: url(./fonts/modenine/Modenine-2OPd.ttf);
+}
+
+body {
+  font-family: 'Modenine', sans-serif;
+    background: $bgColor;
+    color: $primaryColor;
+  }
+  
+  #app {
+    width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $successColor;
+  }
+  
+  .container {
+    max-width: 992px;
+    margin: 0 auto;
+  }
